@@ -55,7 +55,7 @@ epoch = [
     (1, 1, 1, -1)
 ]
 
-train(epoch)
+train(epoch)                                                            # Старт тренеровки НС
 
 for x in epoch:
     y, out = go_forward(x[0:3])
